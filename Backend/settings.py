@@ -90,7 +90,7 @@ CHANNEL_LAYER = {
         "BACKEND": "channels_redis.core.RedisChannelLayer",
         "CONFIG": {
             "hosts": [("localhost", 6379)],
-            #by default redis running on 6379
+            # by default redis running on 6379
         },
     }
 }
